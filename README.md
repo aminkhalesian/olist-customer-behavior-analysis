@@ -21,7 +21,7 @@ Understand why so many customers buy only once and how to improve retention.
 All main queries are in the `/sql` folder.
 
 **Data**  
-Exported results in `/data` folder (optional)
+Exported results in `/data` folder.
 
 
 
