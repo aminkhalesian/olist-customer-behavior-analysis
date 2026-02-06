@@ -1,32 +1,29 @@
 # Olist Customer Behavior Analysis
 
-This is my first real business/data case study using the Olist Brazilian E-Commerce public dataset.
+My first real data analysis project using SQL + Tableau.
 
 **Goal**  
-Understand how new customers behave:  
-- How many buy only once?  
-- How much do they spend on their first order?  
-- Are there big differences by state?  
-- Overall, does the platform keep customers coming back?
+Understand why so many customers buy only once and how to improve retention.
 
-**Tech used**  
-- SQL (SQLite + DB Browser for SQLite)  
-- Tableau Public for visualization  
-- Some help from AI for cleaner queries and structure
+**Key Findings**  
+- 94.24% of customers never buy again (one-time buyers)  
+- Almost half spend less than 100 BRL on first order  
+- Big regional differences: Northern states have much higher first-order value than São Paulo
 
-**Key findings**  
-- 94.24% of customers buy only once  
-- ~47.6% spend less than 100 BRL on first order  
-- Big regional differences (North/Northeast much higher AOV than SP)
+**Tools**  
+- SQL (SQLite) for data preparation  
+- Tableau Public for visualizations  
 
-**Full case study with visuals**  
-→ [View the full Notion write-up here] (https://canary-name-a5e.notion.site/Case-Study-Understanding-New-Customer-Behavior-in-Olist-Brazilian-E-Commerce-2ff5adec5ffb808cbc3eec1e9798245d?source=copy_link)
+**Full case study with interactive dashboards**  
+→ https://canary-name-a5e.notion.site/Case-Study-Understanding-New-Customer-Behavior-in-Olist-Brazilian-E-Commerce-2ff5adec5ffb808cbc3eec1e9798245d
 
-**SQL queries**  
-See the `sql/` folder for all main queries used.
+**SQL Queries**  
+All main queries are in the `/sql` folder.
 
-**Data files**  
-See the `data/` folder for exported CSVs.
+**Data**  
+Exported results in `/data` folder (optional)
+
+
 
 **Visuals**  
 Interactive dashboards published on Tableau Public:
@@ -35,4 +32,4 @@ Interactive dashboards published on Tableau Public:
 - [First Order Value Buckets](https://public.tableau.com/views/Book2_17703988697840/FirstOrderValueDistribution?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 - [Average First Order by State](https://public.tableau.com/views/Practice4_17704004301130/AverageFirstOrderValuebyState?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-Feel free to reach out if you have questions!
+Thanks for checking it out!
